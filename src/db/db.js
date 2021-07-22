@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect("mongodb://127.0.0.1:27017/blog?",
+mongoose.connect("mongodb+srv://sanz:sannu05@cluster0.s5xci.mongodb.net/blog?retryWrites=true&w=majority",
 {
     useNewUrlParser:true,
     useUnifiedTopology:true,
