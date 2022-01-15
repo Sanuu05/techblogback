@@ -29,11 +29,9 @@ const postSchema = mongoose.Schema({
 
     },
 
-    productPic:[
-        {
-            img:{type:String}
-        }
-    ]
+    productPic:{
+        type:Array
+    }
 }, {timestamps: true});
 
 
